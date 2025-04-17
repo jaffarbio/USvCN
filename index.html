@@ -1,49 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>USvCN Coin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
   <style>
     body {
-      background: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
-      padding: 50px;
+      padding: 2rem;
     }
     .logo {
-      max-width: 200px;
+      width: 220px;
       margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     }
-    .title {
-      font-size: 36px;
-      font-weight: bold;
-      color: #00ffc8;
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.3rem;
+      color: #00ffe7;
     }
-    .desc {
-      font-size: 18px;
-      margin-top: 10px;
+    p.subtitle {
+      font-size: 1rem;
       color: #ccc;
+      margin-bottom: 2rem;
     }
-    .links {
-      margin-top: 30px;
+    .contract {
+      font-size: 0.9rem;
+      background: #222;
+      padding: 0.8rem 1.2rem;
+      border-radius: 10px;
+      word-break: break-all;
+      margin-bottom: 2rem;
     }
-    .links a {
-      color: #00ffc8;
-      margin: 0 10px;
+    .buttons a {
+      display: inline-block;
+      background: #00ffe7;
+      color: #000;
       text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      margin: 0.4rem;
+      transition: 0.3s;
+    }
+    .buttons a:hover {
+      background: #0ff;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <img src="https://i.imgur.com/3GNKUUz.png" alt="USvCN Logo" class="logo" />
-  <div class="title">USvCN Coin</div>
-  <div class="desc">The Meme War Between the USA & China Begins Here.</div>
-  <div class="desc">Contract: 0x58037C169b5A2B74252aAAA55F8C8eF3F417adF3</div>
-  <div class="links">
-    <a href="https://twitter.com/usvcncoin" target="_blank">Twitter</a>
-    <a href="https://bscscan.com/token/0x58037C169b5A2B74252aAAA55F8C8eF3F417adF3" target="_blank">BscScan</a>
+  <img src="usvcn-logo.png" alt="USvCN Logo" class="logo" />
+  <h1>USvCN Coin</h1>
+  <p class="subtitle">The Meme War Between the USA & China Begins Here.</p>
+  <div class="contract">
+    Contract: 0x58037C169b5A2B74252aAAA55F8C8eF3F417adF3
   </div>
+  <div class="buttons">
+    <a href="https://bscscan.com/token/0x58037C169b5A2B74252aAAA55F8C8eF3F417adF3" target="_blank">BscScan</a>
+    <a href="https://twitter.com/usvcncoin" target="_blank">Twitter</a>
+    <a href="#">Join Telegram</a>
+  </div>
+  <footer>
+    &copy; 2025 USvCN Coin. All rights reserved.
+  </footer>
 </body>
 </html>
